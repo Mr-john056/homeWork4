@@ -4,6 +4,8 @@ out/
 !**/src/test/**/out/
 
 ### Eclipse ###
+.idea
+homeWork4.iml
 .apt_generated
 .classpath
 .factorypath

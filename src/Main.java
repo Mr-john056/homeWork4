@@ -37,7 +37,15 @@ public class Main {
 
     public static void task3 () {
         System.out.println("Задача 3");
-
+        byte speedExceeded = 61;
+        if (speedExceeded > 60) {
+            System.out.println("Если скорость " + speedExceeded + " км/ч, то придется заплатить штраф");
+        }
+        byte noOverspeed = 60;
+        if (noOverspeed <= 60) {
+            System.out.println("Если скорость " + noOverspeed + " км/ч, то можно ездить спокойно");
+        }
+        System.out.println();
     }
 
     public static void task4 () {

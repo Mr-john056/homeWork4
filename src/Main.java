@@ -24,8 +24,17 @@ public class Main {
 
     public static void task2 () {
         System.out.println("Задача 2");
-
+        byte cold = 4;
+        if (cold < 5){
+            System.out.println("На улице " + cold + " градуса - нужно надеть шапку");
+        }
+        byte hot = 5;
+        if (hot >= 5) {
+            System.out.println("На улице " + hot + " градусов - можно идти без шапки");
+        }
+        System.out.println();
     }
+
     public static void task3 () {
         System.out.println("Задача 3");
 

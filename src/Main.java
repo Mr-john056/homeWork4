@@ -50,6 +50,30 @@ public class Main {
 
     public static void task4 () {
         System.out.println("Задача 4");
+        byte lessThanTwoYears = 1;
+        if (lessThanTwoYears < 2){
+            System.out.println("Если возраст человека равен " + lessThanTwoYears + ", то ему пора спать");
+        }
+        byte fromTwoToSixYears = 5;
+        if (fromTwoToSixYears > 2 && fromTwoToSixYears < 6){
+            System.out.println("Если возраст человека равен " + fromTwoToSixYears + ", то ему нужно ходить в детский сад");
+        }
+        byte sevenToEighteenYears = 1;
+        if (sevenToEighteenYears > 7 && sevenToEighteenYears < 18){
+            System.out.println("Если возраст человека равен " + sevenToEighteenYears + ", то ему нужно ходить в школу");
+        }
+        byte over18ButUnder24Years = 19;
+        if (over18ButUnder24Years > 18 || over18ButUnder24Years < 24){
+            System.out.println("Если возраст человека равен " + over18ButUnder24Years + ", то его место в университете");
+        }
+        byte over24Years = 25;
+        if (over24Years > 24){
+            System.out.println("Если возраст человека равен " + over24Years + ", то ему пора ходить на работу");
+        }
+        byte over60Years = 61;
+        if (over60Years > 60){
+            System.out.println("Если возраст человека равен " + over60Years + ", то он может отдохнуть");
+        }
 
     }
     public static void task5 () {

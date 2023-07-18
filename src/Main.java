@@ -11,12 +11,11 @@ public class Main {
 
     public static void task1 () {
         System.out.println("Задача 1");
-        byte age = 17;
-        if (age>=18) {
-        System.out.println("Вам 18 или больше лет");
-        } else System.out.println("Ваш возраст совершеннолетия ещё не наступил и нужно немного подождать");
+            byte minorAge = 17;
+            if (minorAge>=18) {System.out.println("Вам 18 или больше лет");}
+            byte ageOfMajority = 18;
+            if (ageOfMajority >= 18){System.out.println("Ваш возраст совершеннолетия ещё не наступил и нужно немного подождать");}
         System.out.println();
-
     }
 
     public static void task2 () {

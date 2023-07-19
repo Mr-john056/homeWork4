@@ -74,11 +74,23 @@ public class Main {
         if (over60Years > 60){
             System.out.println("Если возраст человека равен " + over60Years + ", то он может отдохнуть");
         }
-
+        System.out.println();
     }
     public static void task5 () {
         System.out.println("Задача 5");
-
+        byte lessThan5Years = 4;
+        if (lessThan5Years < 5) {
+            System.out.println("Если возраст ребенка равен " + lessThan5Years + ", то он не может кататься на аттракционе");
+        }
+        byte from5To14Years = 7;
+        if (from5To14Years >= 5 && from5To14Years <14){
+            System.out.println("Если возраст ребенка равен " + from5To14Years + ", то он может кататься только в сопровождении взрослого. Если взрослого нет, то кататься нельзяю");
+        }
+        byte over14Years = 15;
+        if (over14Years > 14){
+            System.out.println("Если возраст ребенка равен " + over14Years + ", то он может кататься без сопровождения взрослого.");
+        }
+        System.out.println();
     }
 
     public static void task6 () {

@@ -95,15 +95,21 @@ public class Main {
 
     public static void task6 () {
         System.out.println("Задача 6");
+        short trainCarFull = 103;
         short capacityOf1TrainCar = 102;
         short seatsOnTheTrain = 60;
+        if (capacityOf1TrainCar < 120){
+            System.out.println("В вагоне есть свободные места");
+        }   else {
+            System.out.println("В вагоне нет мест");
+        }
         if (seatsOnTheTrain <= 60){
             System.out.println("Есть свободные сидячие места");
         }
         else if (seatsOnTheTrain > 60 && capacityOf1TrainCar < 102){
             System.out.println("Есть только стоячие места");
         }
-        if (capacityOf1TrainCar > 102){
+        if (trainCarFull > 102){
             System.out.println("Мест нет");
         }
         System.out.println();

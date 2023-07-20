@@ -116,6 +116,15 @@ public class Main {
     }
     public static void task7 () {
         System.out.println("Задача 7");
-
+        int one = 1;
+        int two = 2;
+        int three = 3;
+        if (one > two){
+            System.out.println("Число 1 больше числа 2");
+        } else if (one > three){
+            System.out.println("Число 1 больше числа 3");
+        } else if (two > three){
+            System.out.println("Число 2 больше числа 3");
+        } else System.out.println("Число 3 больше чем, число 1 и число 2");
     }
 }

@@ -44,29 +44,29 @@ public class Main {
 
     public static void task4 () {
         System.out.println("Задача 4");
-        byte lessThanTwoYears = 1;
-        if (lessThanTwoYears <= 2){
-            System.out.println("Если возраст человека равен " + lessThanTwoYears + ", то ему пора спать");
+        byte age = 1;
+        if (age <= 2){
+            System.out.println("Если возраст человека равен " + age + ", то ему пора спать");
         }
-        byte fromTwoToSixYears = 5;
-        if (fromTwoToSixYears >= 2 && fromTwoToSixYears <= 6){
-            System.out.println("Если возраст человека равен " + fromTwoToSixYears + ", то ему нужно ходить в детский сад");
+        byte age = 5;
+        if (age >= 2 && age <= 6){
+            System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить в детский сад");
         }
-        byte sevenToEighteenYears = 1;
-        if (sevenToEighteenYears >= 7 && sevenToEighteenYears <= 18){
-            System.out.println("Если возраст человека равен " + sevenToEighteenYears + ", то ему нужно ходить в школу");
+        byte age = 1;
+        if (age >= 7 && age < 18){
+            System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить в школу");
         }
-        byte over18ButUnder24Years = 19;
-        if (over18ButUnder24Years >= 18 && over18ButUnder24Years <= 24){
-            System.out.println("Если возраст человека равен " + over18ButUnder24Years + ", то его место в университете");
+        byte age = 19;
+        if (age >= 18 && age < 24){
+            System.out.println("Если возраст человека равен " + age + ", то его место в университете");
         }
-        byte over24Years = 25;
-        if (over24Years >= 24 && over24Years <= 60){
-            System.out.println("Если возраст человека равен " + over24Years + ", то ему пора ходить на работу");
+        byte age = 25;
+        if (age >= 24 && age <= 60){
+            System.out.println("Если возраст человека равен " + age + ", то ему пора ходить на работу");
         }
-        byte over60Years = 61;
-        if (over60Years > 60){
-            System.out.println("Если возраст человека равен " + over60Years + ", то он может отдохнуть");
+        byte age = 61;
+        if (age > 60){
+            System.out.println("Если возраст человека равен " + age + ", то он может отдохнуть");
         }
         System.out.println();
     }
@@ -89,18 +89,16 @@ public class Main {
 
     public static void task6 () {
         System.out.println("Задача 6");
-        short trainCarFull = 103;
-        short capacityOf1TrainCar = 102;
-        short seatsOnTheTrain = 60;
-        if (capacityOf1TrainCar < 120){
+        short trainCarFull = 50;
+        if (trainCarFull < 120){
             System.out.println("В вагоне есть свободные места");
         }   else {
             System.out.println("В вагоне нет мест");
         }
-        if (seatsOnTheTrain <= 60){
+        if (trainCarFull <= 60){
             System.out.println("Есть свободные сидячие места");
         }
-        else if (seatsOnTheTrain > 60 && capacityOf1TrainCar < 102){
+        else if (trainCarFull > 60 && trainCarFull < 102){
             System.out.println("Есть только стоячие места");
         }
        System.out.println();
